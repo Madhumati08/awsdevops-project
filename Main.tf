@@ -7,5 +7,6 @@ resource "aws_instance" "example" {
 
     tags = {
         Name = "ExampleInstance"
+    security_level = "high"
     }
 }
